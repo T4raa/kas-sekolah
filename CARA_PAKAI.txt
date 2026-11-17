@@ -1,0 +1,39 @@
+========================================
+  KAS SEKOLAH (Python)
+  Cara Pakai
+========================================
+
+1. Install Python (jika belum):
+   https://www.python.org/downloads
+   Centang "Add Python to PATH"
+
+2. Buka folder ini di Command Prompt / Terminal
+
+3. Install library:
+   pip install -r requirements.txt
+
+4. Jalankan aplikasi:
+   streamlit run app.py
+
+5. Browser akan terbuka otomatis
+   (atau buka http://localhost:8501)
+
+========================================
+  AKUN LOGIN
+========================================
+Admin      : admin / admin123
+Bendahara  : bendahara / bendahara123
+Siswa      : siswa1 / siswa123
+
+Bisa juga daftar akun baru dari halaman login.
+
+========================================
+  FITUR
+========================================
+Admin     → kelola user, atur kas, status bayar, laporan
+Bendahara → catat uang masuk (pilih siswa), uang keluar, laporan
+Siswa     → lihat dashboard & laporan saja
+
+Database otomatis dibuat (kas_sekolah.db)
+Tidak perlu XAMPP / MySQL.
+========================================
